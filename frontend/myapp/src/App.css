@@ -1,0 +1,79 @@
+.label {
+  font-size: 20px;
+  border: 1px solid rgb(207, 108, 81);
+  padding-bottom: 8px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: rgb(226, 160, 79);
+  color: rgb(247, 238, 237);
+}
+
+.input {
+  height: 30px;
+  width: 480px;
+  border: 2px solid rgb(191, 235, 141);
+  outline: none;
+}
+
+.button {
+  height: 35px;
+  width: 100px;
+  background-color: rgb(191, 235, 141);
+  border: none;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.div {
+  border: 1px solid black;
+  margin-top: 50px;
+  height: fit-content;
+  width: 820px;
+  margin-left: 280px;
+  background-color: rgb(228, 155, 169);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.ul {
+  list-style: none;
+  padding: 0;
+}
+
+.li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 10px;
+  width: 500px;
+  margin-left: 120px;
+  background-color: rgb(240, 231, 180);
+  border-radius: 5px;
+  color: rgb(244, 9, 158);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
